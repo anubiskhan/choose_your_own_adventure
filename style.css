@@ -1,3 +1,7 @@
+body {
+  background-color: #18191c;
+}
+
 .hero-image {
   background-image: url('img/background.png');
   background-size: cover;
@@ -10,17 +14,77 @@ a, a.link, a.visited {
 
 nav {
   display: flex;
+  flex-direction: row;
   color: lightgrey;
   font-size: 14px;
-  height: 50px;
+  height:50px;
+  width: 1670px;
 }
 
-nav ul {
-
+nav ul.right {
+  justify-content: flex-end;
 }
 
 nav ul li {
   margin: 0px 10px;
   vertical-align: middle;
   display: inline-block;
+}
+
+main {
+  height: 800px;
+
+  display: flex;
+  color: white;
+  justify-content: center;
+}
+div {
+  justify-content: center;
+  text-align: center;
+  word-wrap: normal;
+}
+div div p {
+  text-align: : center;
+  color: darkgrey;
+  max-width: 710px;
+}
+
+.box {
+  text-align: center;
+  display: flex;
+  color: white;
+  justify-content: center;
+  margin: 100px 0px 0px 0px;
+  flex-direction: column;
+}
+
+.open-button {
+  background-color: #18191c;
+  color: white;
+  border-radius: 15px;
+  border: solid darkgrey 2px;
+  height: 30px;
+  width: 71px;
+}
+
+.download-button {
+  background-color: #f7faff;
+  color: black;
+  border-radius: 3px;
+  border-color: #18191c;
+  height: 45px;
+  width: 250px;
+  margin: 0px 10px;
+  font-size: 14px;
+}
+
+.open-large-button {
+  background-color: #709ae0;
+  color: white;
+  border-radius: 3px;
+  border-color: #18191c;
+  height: 45px;
+  width: 250px;
+  margin: 0px 10px;
+  font-size: 14px;
 }
