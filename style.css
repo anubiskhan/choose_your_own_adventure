@@ -1,0 +1,26 @@
+.hero-image {
+  background-image: url('img/background.png');
+  background-size: cover;
+}
+
+a, a.link, a.visited {
+  color: lightgrey;
+  text-decoration: none;
+}
+
+nav {
+  display: flex;
+  color: lightgrey;
+  font-size: 14px;
+  height: 50px;
+}
+
+nav ul {
+
+}
+
+nav ul li {
+  margin: 0px 10px;
+  vertical-align: middle;
+  display: inline-block;
+}
